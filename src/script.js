@@ -23,7 +23,7 @@ const gltfLoader = new GLTFLoader();
 //   scene.add(blenderScene);
 // });
 let square43 = null;
-gltfLoader.load("/square43/square43.glb", (gltf) => {
+gltfLoader.load("/square3d/square43/square43.glb", (gltf) => {
   square43 = gltf.scene.children[0];
   square43.position.x = 0;
   square43.position.y = 0;
